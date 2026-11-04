@@ -4,7 +4,7 @@ import { getStore } from "@netlify/blobs";
 
 export const config = { path: "/api/scores" };
 
-const CLASSES = 7;
+const CLASSES = 12;
 const MAX_ROWS = 100;
 let cache = null; // { t, users }
 
